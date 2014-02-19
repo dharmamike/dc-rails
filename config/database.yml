@@ -1,7 +1,7 @@
 defaults: &defaults
   adapter: postgresql
   encoding: unicode
-  host: <%= ENV['DB_PORT_5432_TCP_ADDR'] %>
+  host: <%= ENV['DB_1_PORT_5432_TCP_ADDR'] %>
   database: <%= ENV['DB_DATABASE'] %>
   template: template0
   pool: 5
